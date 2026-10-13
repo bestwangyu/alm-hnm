@@ -1,0 +1,31 @@
+{
+  "title": "ALM-HNM: Reproducibility Code and Evidence Package",
+  "upload_type": "software",
+  "description": "Reproducibility package for ALM with semi-hard top-k negative mining under class imbalance.",
+  "creators": [
+    {
+      "name": "Wang, Yu",
+      "affiliation": "[AFFILIATION]",
+      "orcid": "[ORCID]"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "[YYYY-MM-DD]",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "class imbalance",
+    "hard negative mining",
+    "semi-hard mining",
+    "augmented Lagrangian",
+    "deep learning"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "[GITHUB RELEASE URL]",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Raw third-party datasets and model checkpoints are not included."
+}

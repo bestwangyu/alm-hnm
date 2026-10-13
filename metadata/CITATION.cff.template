@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or result package, please cite the archived release and the associated article."
+title: "ALM-HNM: Reproducibility Code and Evidence Package"
+type: software
+version: "1.0.0"
+date-released: "[YYYY-MM-DD]"
+authors:
+  - family-names: "Wang"
+    given-names: "Yu"
+    email: "wangyu@haou.edu.cn"
+    affiliation: "[AFFILIATION]"
+repository-code: "[GITHUB REPOSITORY URL]"
+doi: "[ZENODO VERSION DOI]"
+license: MIT

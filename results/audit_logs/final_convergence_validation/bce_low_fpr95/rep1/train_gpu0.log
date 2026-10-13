@@ -1,0 +1,828 @@
+Running on device:  cuda:0
+You have selected dataset cifar100 and network resnet10. 
+JSON file baseline: baseline_bce
+JSON file ALM: ALM_13_beg
+Model name bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1, ratio classes 200 training, epochs 100, LR decrease 0.
+Training model: bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1. Run num. 1.
+Training type BCE
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.12
+HNM params: mode=semi_hard_topk, topk=10, warmup=7, random_k=0, semi_hard_upper=0.48
+Validation
+Epoch: 0 >> train. loss: 4.6203, train AUC 0.3542
+          >> val AUC 0.6503
+First chepoint.
+Validation
+Epoch: 1 >> train. loss: 0.5439, train AUC 0.5638
+          >> val AUC 0.7471
+New maximum AUC value 0.7471 at epoch 1. Checkpointing the model.
+Validation
+Epoch: 2 >> train. loss: 0.4632, train AUC 0.8610
+          >> val AUC 0.7602
+New maximum AUC value 0.7602 at epoch 2. Checkpointing the model.
+Validation
+Epoch: 3 >> train. loss: 0.4620, train AUC 0.8304
+          >> val AUC 0.7803
+New maximum AUC value 0.7803 at epoch 3. Checkpointing the model.
+Validation
+Epoch: 4 >> train. loss: 0.4510, train AUC 0.8863
+          >> val AUC 0.7833
+New maximum AUC value 0.7833 at epoch 4. Checkpointing the model.
+Validation
+Epoch: 5 >> train. loss: 0.4458, train AUC 0.9260
+          >> val AUC 0.7817
+Validation
+Epoch: 6 >> train. loss: 0.4453, train AUC 0.9112
+          >> val AUC 0.7768
+Validation
+Epoch: 7 >> train. loss: 0.4393, train AUC 0.9452
+          >> val AUC 0.6014
+Mu changed from 0.002 to 0.004
+Validation
+Epoch: 8 >> train. loss: 0.4607, train AUC 0.7989
+          >> val AUC 0.7148
+Validation
+Epoch: 9 >> train. loss: 0.4426, train AUC 0.9336
+          >> val AUC 0.7229
+Validation
+Epoch: 10 >> train. loss: 0.4339, train AUC 0.9232
+          >> val AUC 0.7193
+Validation
+Epoch: 11 >> train. loss: 0.4363, train AUC 0.9147
+          >> val AUC 0.6990
+Validation
+Epoch: 12 >> train. loss: 0.4285, train AUC 0.9470
+          >> val AUC 0.6664
+Validation
+Epoch: 13 >> train. loss: 0.4293, train AUC 0.8863
+          >> val AUC 0.6606
+Validation
+Epoch: 14 >> train. loss: 0.4119, train AUC 0.9473
+          >> val AUC 0.7286
+Validation
+Epoch: 15 >> train. loss: 0.4102, train AUC 0.9578
+          >> val AUC 0.7026
+Validation
+Epoch: 16 >> train. loss: 0.4142, train AUC 0.9534
+          >> val AUC 0.6650
+Validation
+Epoch: 17 >> train. loss: 0.4229, train AUC 0.9083
+          >> val AUC 0.7076
+Validation
+Epoch: 18 >> train. loss: 0.4069, train AUC 0.9530
+          >> val AUC 0.7289
+Validation
+Epoch: 19 >> train. loss: 0.3970, train AUC 0.9731
+          >> val AUC 0.6849
+Validation
+Epoch: 20 >> train. loss: 0.3912, train AUC 0.9846
+          >> val AUC 0.7233
+Validation
+Epoch: 21 >> train. loss: 0.3942, train AUC 0.9681
+          >> val AUC 0.7002
+Validation
+Epoch: 22 >> train. loss: 0.4014, train AUC 0.9222
+          >> val AUC 0.7304
+Validation
+Epoch: 23 >> train. loss: 0.4141, train AUC 0.8690
+          >> val AUC 0.7246
+Validation
+Epoch: 24 >> train. loss: 0.3736, train AUC 0.9881
+          >> val AUC 0.7774
+Validation
+Epoch: 25 >> train. loss: 0.3675, train AUC 0.9865
+          >> val AUC 0.6602
+Mu changed from 0.004 to 0.008
+Validation
+Epoch: 26 >> train. loss: 0.3841, train AUC 0.9096
+          >> val AUC 0.7520
+Mu reached the limit value. No further change in mu. Mu remains:  0.008
+Validation
+Epoch: 27 >> train. loss: 0.3780, train AUC 0.9729
+          >> val AUC 0.7526
+Validation
+Epoch: 28 >> train. loss: 0.3468, train AUC 0.9953
+          >> val AUC 0.7687
+Validation
+Epoch: 29 >> train. loss: 0.3568, train AUC 0.9874
+          >> val AUC 0.7802
+Validation
+Epoch: 30 >> train. loss: 0.3634, train AUC 0.9829
+          >> val AUC 0.7327
+Validation
+Epoch: 31 >> train. loss: 0.3620, train AUC 0.9684
+          >> val AUC 0.7622
+Validation
+Epoch: 32 >> train. loss: 0.3699, train AUC 0.9623
+          >> val AUC 0.7638
+Validation
+Epoch: 33 >> train. loss: 0.3615, train AUC 0.9777
+          >> val AUC 0.7077
+Validation
+Epoch: 34 >> train. loss: 0.3503, train AUC 0.9705
+          >> val AUC 0.7884
+New maximum AUC value 0.7884 at epoch 34. Checkpointing the model.
+Validation
+Epoch: 35 >> train. loss: 0.3399, train AUC 0.9945
+          >> val AUC 0.7537
+Validation
+Epoch: 36 >> train. loss: 0.3391, train AUC 0.9935
+          >> val AUC 0.7180
+Validation
+Epoch: 37 >> train. loss: 0.3457, train AUC 0.9808
+          >> val AUC 0.7627
+Validation
+Epoch: 38 >> train. loss: 0.3616, train AUC 0.9338
+          >> val AUC 0.7467
+Validation
+Epoch: 39 >> train. loss: 0.4199, train AUC 0.8269
+          >> val AUC 0.6859
+Validation
+Epoch: 40 >> train. loss: 0.4080, train AUC 0.9547
+          >> val AUC 0.6990
+Validation
+Epoch: 41 >> train. loss: 0.3726, train AUC 0.9794
+          >> val AUC 0.7130
+Validation
+Epoch: 42 >> train. loss: 0.3645, train AUC 0.9850
+          >> val AUC 0.7038
+Validation
+Epoch: 43 >> train. loss: 0.3515, train AUC 0.9821
+          >> val AUC 0.5646
+Validation
+Epoch: 44 >> train. loss: 0.4671, train AUC 0.8004
+          >> val AUC 0.6502
+Validation
+Epoch: 45 >> train. loss: 0.4860, train AUC 0.9480
+          >> val AUC 0.6929
+Validation
+Epoch: 46 >> train. loss: 0.4355, train AUC 0.9820
+          >> val AUC 0.7054
+Validation
+Epoch: 47 >> train. loss: 0.3917, train AUC 0.9585
+          >> val AUC 0.6546
+Validation
+Epoch: 48 >> train. loss: 0.3737, train AUC 0.9854
+          >> val AUC 0.6982
+Validation
+Epoch: 49 >> train. loss: 0.3444, train AUC 0.9978
+          >> val AUC 0.6931
+Validation
+Epoch: 50 >> train. loss: 0.3451, train AUC 0.9924
+          >> val AUC 0.6890
+Validation
+Epoch: 51 >> train. loss: 0.3370, train AUC 0.9898
+          >> val AUC 0.7141
+Validation
+Epoch: 52 >> train. loss: 0.3363, train AUC 0.9987
+          >> val AUC 0.7048
+Validation
+Epoch: 53 >> train. loss: 0.3248, train AUC 0.9979
+          >> val AUC 0.7162
+Validation
+Epoch: 54 >> train. loss: 0.3199, train AUC 0.9976
+          >> val AUC 0.7283
+Validation
+Epoch: 55 >> train. loss: 0.3084, train AUC 0.9991
+          >> val AUC 0.7258
+Validation
+Epoch: 56 >> train. loss: 0.3221, train AUC 0.9926
+          >> val AUC 0.6753
+Validation
+Epoch: 57 >> train. loss: 0.3267, train AUC 0.9951
+          >> val AUC 0.6868
+Validation
+Epoch: 58 >> train. loss: 0.3336, train AUC 0.9550
+          >> val AUC 0.7012
+Validation
+Epoch: 59 >> train. loss: 0.2891, train AUC 0.9993
+          >> val AUC 0.6961
+Validation
+Epoch: 60 >> train. loss: 0.3061, train AUC 0.9970
+          >> val AUC 0.7036
+Validation
+Epoch: 61 >> train. loss: 0.3326, train AUC 0.9857
+          >> val AUC 0.6350
+Validation
+Epoch: 62 >> train. loss: 0.3367, train AUC 0.9684
+          >> val AUC 0.7040
+Validation
+Epoch: 63 >> train. loss: 0.3470, train AUC 0.9600
+          >> val AUC 0.7565
+Validation
+Epoch: 64 >> train. loss: 0.2945, train AUC 0.9928
+          >> val AUC 0.7017
+Validation
+Epoch: 65 >> train. loss: 0.3348, train AUC 0.9660
+          >> val AUC 0.6185
+No improvement since 30 epochs. Early stopping.
+Maximum validation AUC value 0.7884 at epoch 34.
+Starting test.
+/home/c_123/program/alm-dnn-main-hnm/utils/train_test_CIFAR.py:522: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(os.path.join(model_dir, model_name + ".pth"))
+Training model: bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1. Run num. 2.
+Training type BCE
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.12
+HNM params: mode=semi_hard_topk, topk=10, warmup=7, random_k=0, semi_hard_upper=0.48
+Validation
+Epoch: 0 >> train. loss: 4.0454, train AUC 0.6149
+          >> val AUC 0.6943
+First chepoint.
+Validation
+Epoch: 1 >> train. loss: 0.5638, train AUC 0.6822
+          >> val AUC 0.7990
+New maximum AUC value 0.7990 at epoch 1. Checkpointing the model.
+Validation
+Epoch: 2 >> train. loss: 0.4595, train AUC 0.9076
+          >> val AUC 0.8001
+New maximum AUC value 0.8001 at epoch 2. Checkpointing the model.
+Validation
+Epoch: 3 >> train. loss: 0.4386, train AUC 0.9490
+          >> val AUC 0.8008
+New maximum AUC value 0.8008 at epoch 3. Checkpointing the model.
+Validation
+Epoch: 4 >> train. loss: 0.4251, train AUC 0.9576
+          >> val AUC 0.8064
+New maximum AUC value 0.8064 at epoch 4. Checkpointing the model.
+Validation
+Epoch: 5 >> train. loss: 0.4230, train AUC 0.9565
+          >> val AUC 0.8080
+New maximum AUC value 0.8080 at epoch 5. Checkpointing the model.
+Validation
+Epoch: 6 >> train. loss: 0.4070, train AUC 0.9647
+          >> val AUC 0.8066
+Validation
+Epoch: 7 >> train. loss: 0.4166, train AUC 0.9383
+          >> val AUC 0.7566
+Validation
+Epoch: 8 >> train. loss: 0.3902, train AUC 0.9603
+          >> val AUC 0.7948
+Validation
+Epoch: 9 >> train. loss: 0.4061, train AUC 0.9470
+          >> val AUC 0.7550
+Validation
+Epoch: 10 >> train. loss: 0.3836, train AUC 0.9756
+          >> val AUC 0.7967
+Validation
+Epoch: 11 >> train. loss: 0.4121, train AUC 0.8468
+          >> val AUC 0.7798
+Validation
+Epoch: 12 >> train. loss: 0.3761, train AUC 0.9653
+          >> val AUC 0.7611
+Validation
+Epoch: 13 >> train. loss: 0.3709, train AUC 0.9601
+          >> val AUC 0.7527
+Validation
+Epoch: 14 >> train. loss: 0.3700, train AUC 0.9616
+          >> val AUC 0.7401
+Validation
+Epoch: 15 >> train. loss: 0.3569, train AUC 0.9702
+          >> val AUC 0.7546
+Validation
+Epoch: 16 >> train. loss: 0.3314, train AUC 0.9795
+          >> val AUC 0.7626
+Validation
+Epoch: 17 >> train. loss: 0.4013, train AUC 0.9028
+          >> val AUC 0.7795
+Validation
+Epoch: 18 >> train. loss: 0.3691, train AUC 0.9640
+          >> val AUC 0.7848
+Validation
+Epoch: 19 >> train. loss: 0.3560, train AUC 0.9676
+          >> val AUC 0.7867
+Validation
+Epoch: 20 >> train. loss: 0.3296, train AUC 0.9770
+          >> val AUC 0.7694
+Validation
+Epoch: 21 >> train. loss: 0.3520, train AUC 0.9863
+          >> val AUC 0.7691
+Validation
+Epoch: 22 >> train. loss: 0.3456, train AUC 0.9898
+          >> val AUC 0.7507
+Validation
+Epoch: 23 >> train. loss: 0.3441, train AUC 0.9776
+          >> val AUC 0.7269
+Validation
+Epoch: 24 >> train. loss: 0.3293, train AUC 0.9827
+          >> val AUC 0.7498
+Validation
+Epoch: 25 >> train. loss: 0.3222, train AUC 0.9906
+          >> val AUC 0.7646
+Validation
+Epoch: 26 >> train. loss: 0.3203, train AUC 0.9906
+          >> val AUC 0.7629
+Validation
+Epoch: 27 >> train. loss: 0.3165, train AUC 0.9924
+          >> val AUC 0.7322
+Validation
+Epoch: 28 >> train. loss: 0.3457, train AUC 0.9894
+          >> val AUC 0.7739
+Validation
+Epoch: 29 >> train. loss: 0.3402, train AUC 0.9795
+          >> val AUC 0.7540
+Validation
+Epoch: 30 >> train. loss: 0.3369, train AUC 0.9834
+          >> val AUC 0.7318
+Validation
+Epoch: 31 >> train. loss: 0.3301, train AUC 0.9827
+          >> val AUC 0.7675
+Validation
+Epoch: 32 >> train. loss: 0.3268, train AUC 0.9842
+          >> val AUC 0.7590
+Validation
+Epoch: 33 >> train. loss: 0.3164, train AUC 0.9917
+          >> val AUC 0.7676
+Validation
+Epoch: 34 >> train. loss: 0.3200, train AUC 0.9869
+          >> val AUC 0.7605
+Validation
+Epoch: 35 >> train. loss: 0.3142, train AUC 0.9869
+          >> val AUC 0.7992
+Validation
+Epoch: 36 >> train. loss: 0.2937, train AUC 0.9933
+          >> val AUC 0.7839
+No improvement since 30 epochs. Early stopping.
+Maximum validation AUC value 0.8080 at epoch 5.
+Starting test.
+Training model: bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1. Run num. 3.
+Training type BCE
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.12
+HNM params: mode=semi_hard_topk, topk=10, warmup=7, random_k=0, semi_hard_upper=0.48
+Validation
+Epoch: 0 >> train. loss: 4.2968, train AUC 0.6206
+          >> val AUC 0.4090
+First chepoint.
+Validation
+Epoch: 1 >> train. loss: 0.5660, train AUC 0.5428
+          >> val AUC 0.6390
+New maximum AUC value 0.6390 at epoch 1. Checkpointing the model.
+Validation
+Epoch: 2 >> train. loss: 0.4783, train AUC 0.7020
+          >> val AUC 0.6866
+New maximum AUC value 0.6866 at epoch 2. Checkpointing the model.
+Validation
+Epoch: 3 >> train. loss: 0.4736, train AUC 0.8073
+          >> val AUC 0.7169
+New maximum AUC value 0.7169 at epoch 3. Checkpointing the model.
+Validation
+Epoch: 4 >> train. loss: 0.4622, train AUC 0.7889
+          >> val AUC 0.7102
+Validation
+Epoch: 5 >> train. loss: 0.4576, train AUC 0.8829
+          >> val AUC 0.6834
+Validation
+Epoch: 6 >> train. loss: 0.4446, train AUC 0.8535
+          >> val AUC 0.6686
+Validation
+Epoch: 7 >> train. loss: 0.4553, train AUC 0.8441
+          >> val AUC 0.7061
+Validation
+Epoch: 8 >> train. loss: 0.4632, train AUC 0.8978
+          >> val AUC 0.6540
+Mu changed from 0.002 to 0.004
+Validation
+Epoch: 9 >> train. loss: 0.4494, train AUC 0.8878
+          >> val AUC 0.7565
+New maximum AUC value 0.7565 at epoch 9. Checkpointing the model.
+Validation
+Epoch: 10 >> train. loss: 0.4486, train AUC 0.8714
+          >> val AUC 0.5646
+Mu changed from 0.004 to 0.008
+Validation
+Epoch: 11 >> train. loss: 0.4533, train AUC 0.8428
+          >> val AUC 0.6590
+Mu reached the limit value. No further change in mu. Mu remains:  0.008
+Validation
+Epoch: 12 >> train. loss: 0.4507, train AUC 0.8541
+          >> val AUC 0.6466
+Validation
+Epoch: 13 >> train. loss: 0.4236, train AUC 0.9341
+          >> val AUC 0.7129
+Validation
+Epoch: 14 >> train. loss: 0.4269, train AUC 0.9413
+          >> val AUC 0.6082
+Validation
+Epoch: 15 >> train. loss: 0.4347, train AUC 0.9162
+          >> val AUC 0.6662
+Validation
+Epoch: 16 >> train. loss: 0.4173, train AUC 0.8692
+          >> val AUC 0.6102
+Validation
+Epoch: 17 >> train. loss: 0.4216, train AUC 0.9265
+          >> val AUC 0.6274
+Validation
+Epoch: 18 >> train. loss: 0.3766, train AUC 0.9764
+          >> val AUC 0.6870
+Validation
+Epoch: 19 >> train. loss: 0.4029, train AUC 0.9374
+          >> val AUC 0.6755
+Validation
+Epoch: 20 >> train. loss: 0.4112, train AUC 0.9420
+          >> val AUC 0.6405
+Validation
+Epoch: 21 >> train. loss: 0.3749, train AUC 0.9741
+          >> val AUC 0.6080
+Validation
+Epoch: 22 >> train. loss: 0.3829, train AUC 0.9357
+          >> val AUC 0.6493
+Validation
+Epoch: 23 >> train. loss: 0.3952, train AUC 0.8883
+          >> val AUC 0.6420
+Validation
+Epoch: 24 >> train. loss: 0.3608, train AUC 0.9900
+          >> val AUC 0.6881
+Validation
+Epoch: 25 >> train. loss: 0.3622, train AUC 0.9855
+          >> val AUC 0.6794
+Validation
+Epoch: 26 >> train. loss: 0.3871, train AUC 0.9347
+          >> val AUC 0.6895
+Validation
+Epoch: 27 >> train. loss: 0.3903, train AUC 0.9444
+          >> val AUC 0.5851
+Validation
+Epoch: 28 >> train. loss: 0.3400, train AUC 0.9922
+          >> val AUC 0.6441
+Validation
+Epoch: 29 >> train. loss: 0.3583, train AUC 0.9717
+          >> val AUC 0.5950
+Validation
+Epoch: 30 >> train. loss: 0.3925, train AUC 0.9221
+          >> val AUC 0.7486
+Validation
+Epoch: 31 >> train. loss: 0.4183, train AUC 0.9032
+          >> val AUC 0.6760
+Validation
+Epoch: 32 >> train. loss: 0.3714, train AUC 0.9201
+          >> val AUC 0.6294
+Validation
+Epoch: 33 >> train. loss: 0.3597, train AUC 0.9733
+          >> val AUC 0.6111
+Validation
+Epoch: 34 >> train. loss: 0.3731, train AUC 0.9379
+          >> val AUC 0.6682
+Validation
+Epoch: 35 >> train. loss: 0.3631, train AUC 0.9791
+          >> val AUC 0.6106
+Validation
+Epoch: 36 >> train. loss: 0.3637, train AUC 0.9686
+          >> val AUC 0.5946
+Validation
+Epoch: 37 >> train. loss: 0.3418, train AUC 0.9854
+          >> val AUC 0.6312
+Validation
+Epoch: 38 >> train. loss: 0.3363, train AUC 0.9768
+          >> val AUC 0.5808
+Validation
+Epoch: 39 >> train. loss: 0.3467, train AUC 0.9914
+          >> val AUC 0.6541
+Validation
+Epoch: 40 >> train. loss: 0.3383, train AUC 0.9908
+          >> val AUC 0.6020
+No improvement since 30 epochs. Early stopping.
+Maximum validation AUC value 0.7565 at epoch 9.
+Starting test.
+Training model: bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1. Run num. 4.
+Training type BCE
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.12
+HNM params: mode=semi_hard_topk, topk=10, warmup=7, random_k=0, semi_hard_upper=0.48
+Validation
+Epoch: 0 >> train. loss: 4.4386, train AUC 0.5463
+          >> val AUC 0.5277
+First chepoint.
+Validation
+Epoch: 1 >> train. loss: 0.5325, train AUC 0.7703
+          >> val AUC 0.6837
+New maximum AUC value 0.6837 at epoch 1. Checkpointing the model.
+Validation
+Epoch: 2 >> train. loss: 0.4445, train AUC 0.8840
+          >> val AUC 0.6966
+New maximum AUC value 0.6966 at epoch 2. Checkpointing the model.
+Validation
+Epoch: 3 >> train. loss: 0.4242, train AUC 0.9386
+          >> val AUC 0.7058
+New maximum AUC value 0.7058 at epoch 3. Checkpointing the model.
+Validation
+Epoch: 4 >> train. loss: 0.4289, train AUC 0.9274
+          >> val AUC 0.7274
+New maximum AUC value 0.7274 at epoch 4. Checkpointing the model.
+Validation
+Epoch: 5 >> train. loss: 0.4132, train AUC 0.9439
+          >> val AUC 0.7352
+New maximum AUC value 0.7352 at epoch 5. Checkpointing the model.
+Validation
+Epoch: 6 >> train. loss: 0.4223, train AUC 0.8980
+          >> val AUC 0.7470
+New maximum AUC value 0.7470 at epoch 6. Checkpointing the model.
+Validation
+Epoch: 7 >> train. loss: 0.4135, train AUC 0.9589
+          >> val AUC 0.7221
+Validation
+Epoch: 8 >> train. loss: 0.4469, train AUC 0.8691
+          >> val AUC 0.7570
+New maximum AUC value 0.7570 at epoch 8. Checkpointing the model.
+Validation
+Epoch: 9 >> train. loss: 0.4071, train AUC 0.9572
+          >> val AUC 0.7135
+Validation
+Epoch: 10 >> train. loss: 0.4081, train AUC 0.9603
+          >> val AUC 0.6867
+Validation
+Epoch: 11 >> train. loss: 0.4116, train AUC 0.9400
+          >> val AUC 0.7522
+Validation
+Epoch: 12 >> train. loss: 0.3984, train AUC 0.9707
+          >> val AUC 0.6739
+Mu changed from 0.002 to 0.004
+Validation
+Epoch: 13 >> train. loss: 0.4200, train AUC 0.9436
+          >> val AUC 0.6907
+Validation
+Epoch: 14 >> train. loss: 0.3927, train AUC 0.9614
+          >> val AUC 0.7802
+New maximum AUC value 0.7802 at epoch 14. Checkpointing the model.
+Validation
+Epoch: 15 >> train. loss: 0.3920, train AUC 0.9435
+          >> val AUC 0.6304
+Mu changed from 0.004 to 0.008
+Validation
+Epoch: 16 >> train. loss: 0.3967, train AUC 0.8935
+          >> val AUC 0.7580
+Mu reached the limit value. No further change in mu. Mu remains:  0.008
+Validation
+Epoch: 17 >> train. loss: 0.3770, train AUC 0.9751
+          >> val AUC 0.7369
+Validation
+Epoch: 18 >> train. loss: 0.3878, train AUC 0.9467
+          >> val AUC 0.7415
+Validation
+Epoch: 19 >> train. loss: 0.3746, train AUC 0.9714
+          >> val AUC 0.7331
+Validation
+Epoch: 20 >> train. loss: 0.3709, train AUC 0.9561
+          >> val AUC 0.7446
+Validation
+Epoch: 21 >> train. loss: 0.3570, train AUC 0.9793
+          >> val AUC 0.7511
+Validation
+Epoch: 22 >> train. loss: 0.3832, train AUC 0.9310
+          >> val AUC 0.7738
+Validation
+Epoch: 23 >> train. loss: 0.3677, train AUC 0.9800
+          >> val AUC 0.7469
+Validation
+Epoch: 24 >> train. loss: 0.3528, train AUC 0.9835
+          >> val AUC 0.7923
+New maximum AUC value 0.7923 at epoch 24. Checkpointing the model.
+Validation
+Epoch: 25 >> train. loss: 0.3477, train AUC 0.9853
+          >> val AUC 0.7562
+Validation
+Epoch: 26 >> train. loss: 0.3692, train AUC 0.9793
+          >> val AUC 0.7651
+Validation
+Epoch: 27 >> train. loss: 0.3346, train AUC 0.9901
+          >> val AUC 0.7737
+Validation
+Epoch: 28 >> train. loss: 0.3594, train AUC 0.9505
+          >> val AUC 0.6386
+Validation
+Epoch: 29 >> train. loss: 0.3519, train AUC 0.9613
+          >> val AUC 0.7430
+Validation
+Epoch: 30 >> train. loss: 0.3394, train AUC 0.9822
+          >> val AUC 0.7570
+Validation
+Epoch: 31 >> train. loss: 0.3270, train AUC 0.9795
+          >> val AUC 0.7334
+Validation
+Epoch: 32 >> train. loss: 0.3432, train AUC 0.9722
+          >> val AUC 0.8130
+New maximum AUC value 0.8130 at epoch 32. Checkpointing the model.
+Validation
+Epoch: 33 >> train. loss: 0.3186, train AUC 0.9918
+          >> val AUC 0.7675
+Validation
+Epoch: 34 >> train. loss: 0.3223, train AUC 0.9917
+          >> val AUC 0.7714
+Validation
+Epoch: 35 >> train. loss: 0.3271, train AUC 0.9893
+          >> val AUC 0.7593
+Validation
+Epoch: 36 >> train. loss: 0.3490, train AUC 0.9744
+          >> val AUC 0.7819
+Validation
+Epoch: 37 >> train. loss: 0.3204, train AUC 0.9962
+          >> val AUC 0.7229
+Validation
+Epoch: 38 >> train. loss: 0.3393, train AUC 0.9811
+          >> val AUC 0.7135
+Validation
+Epoch: 39 >> train. loss: 0.3031, train AUC 0.9968
+          >> val AUC 0.7445
+Validation
+Epoch: 40 >> train. loss: 0.3026, train AUC 0.9966
+          >> val AUC 0.7686
+Validation
+Epoch: 41 >> train. loss: 0.3268, train AUC 0.9933
+          >> val AUC 0.7268
+Validation
+Epoch: 42 >> train. loss: 0.3126, train AUC 0.9920
+          >> val AUC 0.6914
+Validation
+Epoch: 43 >> train. loss: 0.3324, train AUC 0.9882
+          >> val AUC 0.7279
+Validation
+Epoch: 44 >> train. loss: 0.3040, train AUC 0.9901
+          >> val AUC 0.7887
+Validation
+Epoch: 45 >> train. loss: 0.3043, train AUC 0.9907
+          >> val AUC 0.6867
+Validation
+Epoch: 46 >> train. loss: 0.3217, train AUC 0.9852
+          >> val AUC 0.6470
+Validation
+Epoch: 47 >> train. loss: 0.2843, train AUC 0.9984
+          >> val AUC 0.7266
+Validation
+Epoch: 48 >> train. loss: 0.3046, train AUC 0.9949
+          >> val AUC 0.7642
+Validation
+Epoch: 49 >> train. loss: 0.2936, train AUC 0.9951
+          >> val AUC 0.7816
+Validation
+Epoch: 50 >> train. loss: 0.3461, train AUC 0.9438
+          >> val AUC 0.7709
+Validation
+Epoch: 51 >> train. loss: 0.3089, train AUC 0.9876
+          >> val AUC 0.7789
+Validation
+Epoch: 52 >> train. loss: 0.2911, train AUC 0.9970
+          >> val AUC 0.7510
+Validation
+Epoch: 53 >> train. loss: 0.2962, train AUC 0.9911
+          >> val AUC 0.7298
+Validation
+Epoch: 54 >> train. loss: 0.2825, train AUC 0.9979
+          >> val AUC 0.7748
+Validation
+Epoch: 55 >> train. loss: 0.2849, train AUC 0.9978
+          >> val AUC 0.7850
+Validation
+Epoch: 56 >> train. loss: 0.2984, train AUC 0.9937
+          >> val AUC 0.7521
+Validation
+Epoch: 57 >> train. loss: 0.3000, train AUC 0.9936
+          >> val AUC 0.7074
+Validation
+Epoch: 58 >> train. loss: 0.2833, train AUC 0.9977
+          >> val AUC 0.6845
+Validation
+Epoch: 59 >> train. loss: 0.2913, train AUC 0.9919
+          >> val AUC 0.7242
+Validation
+Epoch: 60 >> train. loss: 0.2685, train AUC 0.9997
+          >> val AUC 0.7573
+Validation
+Epoch: 61 >> train. loss: 0.3045, train AUC 0.9949
+          >> val AUC 0.7134
+Validation
+Epoch: 62 >> train. loss: 0.2809, train AUC 0.9796
+          >> val AUC 0.7576
+Validation
+Epoch: 63 >> train. loss: 0.2568, train AUC 0.9964
+          >> val AUC 0.7130
+No improvement since 30 epochs. Early stopping.
+Maximum validation AUC value 0.8130 at epoch 32.
+Starting test.
+Training model: bce_low_fpr95_k10_u0p48_r0_d0p12_w7_rep1. Run num. 5.
+Training type BCE
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.12
+HNM params: mode=semi_hard_topk, topk=10, warmup=7, random_k=0, semi_hard_upper=0.48
+Validation
+Epoch: 0 >> train. loss: 4.3694, train AUC 0.4950
+          >> val AUC 0.6816
+First chepoint.
+Validation
+Epoch: 1 >> train. loss: 0.5483, train AUC 0.6678
+          >> val AUC 0.7802
+New maximum AUC value 0.7802 at epoch 1. Checkpointing the model.
+Validation
+Epoch: 2 >> train. loss: 0.4481, train AUC 0.8772
+          >> val AUC 0.7860
+New maximum AUC value 0.7860 at epoch 2. Checkpointing the model.
+Validation
+Epoch: 3 >> train. loss: 0.4326, train AUC 0.9078
+          >> val AUC 0.7903
+New maximum AUC value 0.7903 at epoch 3. Checkpointing the model.
+Validation
+Epoch: 4 >> train. loss: 0.4209, train AUC 0.9581
+          >> val AUC 0.7894
+Validation
+Epoch: 5 >> train. loss: 0.4195, train AUC 0.9363
+          >> val AUC 0.7710
+Validation
+Epoch: 6 >> train. loss: 0.4141, train AUC 0.9609
+          >> val AUC 0.7761
+Validation
+Epoch: 7 >> train. loss: 0.4195, train AUC 0.9282
+          >> val AUC 0.7847
+Validation
+Epoch: 8 >> train. loss: 0.4414, train AUC 0.8898
+          >> val AUC 0.7413
+Validation
+Epoch: 9 >> train. loss: 0.4221, train AUC 0.9483
+          >> val AUC 0.7736
+Validation
+Epoch: 10 >> train. loss: 0.4234, train AUC 0.9432
+          >> val AUC 0.7060
+Mu changed from 0.002 to 0.004
+Validation
+Epoch: 11 >> train. loss: 0.4390, train AUC 0.9378
+          >> val AUC 0.7352
+Validation
+Epoch: 12 >> train. loss: 0.4578, train AUC 0.8068
+          >> val AUC 0.7320
+Validation
+Epoch: 13 >> train. loss: 0.4038, train AUC 0.9785
+          >> val AUC 0.7454
+Validation
+Epoch: 14 >> train. loss: 0.4170, train AUC 0.9520
+          >> val AUC 0.7793
+Validation
+Epoch: 15 >> train. loss: 0.4320, train AUC 0.9052
+          >> val AUC 0.6771
+Mu changed from 0.004 to 0.008
+Validation
+Epoch: 16 >> train. loss: 0.3968, train AUC 0.9567
+          >> val AUC 0.7814
+Mu reached the limit value. No further change in mu. Mu remains:  0.008
+Validation
+Epoch: 17 >> train. loss: 0.4244, train AUC 0.9413
+          >> val AUC 0.7400
+Validation
+Epoch: 18 >> train. loss: 0.3982, train AUC 0.9760
+          >> val AUC 0.7430
+Validation
+Epoch: 19 >> train. loss: 0.3904, train AUC 0.9805
+          >> val AUC 0.7772
+Validation
+Epoch: 20 >> train. loss: 0.4088, train AUC 0.9496
+          >> val AUC 0.6754
+Validation
+Epoch: 21 >> train. loss: 0.3847, train AUC 0.9785
+          >> val AUC 0.7604
+Validation
+Epoch: 22 >> train. loss: 0.3879, train AUC 0.9536
+          >> val AUC 0.7338
+Validation
+Epoch: 23 >> train. loss: 0.3671, train AUC 0.9719
+          >> val AUC 0.6628
+Validation
+Epoch: 24 >> train. loss: 0.3927, train AUC 0.9673
+          >> val AUC 0.7198
+Validation
+Epoch: 25 >> train. loss: 0.3983, train AUC 0.9432
+          >> val AUC 0.6994
+Validation
+Epoch: 26 >> train. loss: 0.3647, train AUC 0.9736
+          >> val AUC 0.7267
+Validation
+Epoch: 27 >> train. loss: 0.3958, train AUC 0.9444
+          >> val AUC 0.6574
+Validation
+Epoch: 28 >> train. loss: 0.4014, train AUC 0.8980
+          >> val AUC 0.7348
+Validation
+Epoch: 29 >> train. loss: 0.3513, train AUC 0.9859
+          >> val AUC 0.6190
+Validation
+Epoch: 30 >> train. loss: 0.3915, train AUC 0.8958
+          >> val AUC 0.7751
+Validation
+Epoch: 31 >> train. loss: 0.3340, train AUC 0.9879
+          >> val AUC 0.7703
+Validation
+Epoch: 32 >> train. loss: 0.3360, train AUC 0.9718
+          >> val AUC 0.7606
+Validation
+Epoch: 33 >> train. loss: 0.3550, train AUC 0.9763
+          >> val AUC 0.6939
+Validation
+Epoch: 34 >> train. loss: 0.3475, train AUC 0.9860
+          >> val AUC 0.7014
+No improvement since 30 epochs. Early stopping.
+Maximum validation AUC value 0.7903 at epoch 3.
+Starting test.
+### Final results ###
+AUC of ensembled validation logits: 0.84256
+Validation AUC average: 0.791248, standard deviation: 0.01986608607652752
+AUC of averaged logits of final test: 80.07
+TPR = 98.0, FPR = 92.0.
+TPR = 95.0, FPR = 69.8.
+TPR = 90.0, FPR = 48.0.
+Test averaged AUC: 0.7613920000000001, std 0.022347526395554353.

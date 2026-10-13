@@ -1,0 +1,18 @@
+name: alm-hnm-train
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip
+  - numpy=1.19.1
+  - pandas=1.1.3
+  - scipy=1.5.2
+  - scikit-learn=0.23.2
+  - matplotlib=3.3.2
+  - pillow=7.2.0
+  - pyyaml=5.4.1
+  - pip:
+      - tqdm==4.50.2
+# Install the recorded CUDA build after creation:
+# pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121

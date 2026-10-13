@@ -1,0 +1,21 @@
+{
+  "title": "ALM-HNM: Reproducibility Code and Evidence Package",
+  "upload_type": "software",
+  "description": "Code and evidence for integrating semi-hard top-k hard-negative mining with augmented-Lagrangian training under class imbalance.",
+  "creators": [
+    {
+      "name": "Wang, Yu"
+    }
+  ],
+  "version": "1.0.0-rc1",
+  "publication_date": "2026-10-12",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "class imbalance",
+    "hard negative mining",
+    "semi-hard mining",
+    "augmented Lagrangian method",
+    "deep learning"
+  ]
+}

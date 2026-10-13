@@ -1,0 +1,17 @@
+loss,variant,roc_auc_percent,fpr90_percent,fpr95_percent,fpr98_percent,replicate_unit,source_log
+BCE,Original ALM,80.180000,54.600000,74.400000,83.600000,10-seed ensemble aggregate,audit_logs/baseline_compare/bce/alm_only/ensemble.log
+BCE,+ semi-hard top-k,80.566000,51.000000,72.400000,83.400000,10-seed ensemble aggregate,audit_logs/baseline_compare/bce/alm_plus_semihard/ensemble.log
+S-LM,Original ALM,79.748000,62.600000,79.600000,81.600000,10-seed ensemble aggregate,audit_logs/baseline_compare/s_lm/alm_only/ensemble.log
+S-LM,+ semi-hard top-k,80.426000,55.000000,70.400000,85.400000,10-seed ensemble aggregate,audit_logs/baseline_compare/s_lm/alm_plus_semihard/ensemble.log
+S-FL,Original ALM,80.064000,50.400000,77.200000,81.000000,10-seed ensemble aggregate,audit_logs/baseline_compare/s_fl/alm_only/ensemble.log
+S-FL,+ semi-hard top-k,80.750000,59.800000,66.800000,86.600000,10-seed ensemble aggregate,audit_logs/baseline_compare/s_fl/alm_plus_semihard/ensemble.log
+A-LM,Original ALM,79.124000,51.800000,84.200000,88.600000,10-seed ensemble aggregate,audit_logs/baseline_compare/a_lm/alm_only/ensemble.log
+A-LM,+ semi-hard top-k,79.244000,55.800000,72.100000,92.600000,10-seed ensemble aggregate,audit_logs/baseline_compare/a_lm/alm_plus_semihard/ensemble.log
+A-FL,Original ALM,79.984000,55.400000,79.600000,87.000000,10-seed ensemble aggregate,audit_logs/baseline_compare/a_fl/alm_only/ensemble.log
+A-FL,+ semi-hard top-k,80.584000,51.000000,70.000000,94.000000,10-seed ensemble aggregate,audit_logs/baseline_compare/a_fl/alm_plus_semihard/ensemble.log
+CB-BCE,Original ALM,80.124000,46.600000,68.800000,91.800000,10-seed ensemble aggregate,audit_logs/baseline_compare/cb_bce/alm_only/ensemble.log
+CB-BCE,+ semi-hard top-k,81.336000,52.800000,78.200000,84.400000,10-seed ensemble aggregate,audit_logs/baseline_compare/cb_bce/alm_plus_semihard/ensemble.log
+W-BCE,Original ALM,81.426000,49.200000,59.800000,74.000000,10-seed ensemble aggregate,audit_logs/baseline_compare/w_bce/alm_only/ensemble.log
+W-BCE,+ semi-hard top-k,80.464000,48.400000,63.800000,81.800000,10-seed ensemble aggregate,audit_logs/baseline_compare/w_bce/alm_plus_semihard/ensemble.log
+LDAM,Original ALM,79.316000,53.600000,76.000000,84.200000,10-seed ensemble aggregate,audit_logs/baseline_compare/ldam/alm_only/ensemble.log
+LDAM,+ semi-hard top-k,79.228000,54.400000,74.600000,84.000000,10-seed ensemble aggregate,audit_logs/baseline_compare/ldam/alm_plus_semihard/ensemble.log

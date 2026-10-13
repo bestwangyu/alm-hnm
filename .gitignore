@@ -1,0 +1,9 @@
+.DS_Store
+._.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+datasets/
+checkpoint/
+reproduced_outputs/
+*.pid

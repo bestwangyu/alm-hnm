@@ -1,0 +1,17 @@
+loss,variant,roc_auc_percent,fpr90_percent,fpr95_percent,fpr98_percent,replicate_unit
+BCE,Original ALM,80.18,54.6,74.4,83.6,10-seed ensemble aggregate
+BCE,+ semi-hard top-k,80.566,51.0,72.39999999999999,83.39999999999999,10-seed ensemble aggregate
+S-LM,Original ALM,79.748,62.6,79.60000000000001,81.6,10-seed ensemble aggregate
+S-LM,+ semi-hard top-k,80.426,55.00000000000001,70.39999999999999,85.39999999999999,10-seed ensemble aggregate
+S-FL,Original ALM,80.064,50.4,77.2,81.0,10-seed ensemble aggregate
+S-FL,+ semi-hard top-k,80.75000000000001,59.8,66.8,86.6,10-seed ensemble aggregate
+A-LM,Original ALM,79.12400000000001,51.800000000000004,84.2,88.6,10-seed ensemble aggregate
+A-LM,+ semi-hard top-k,79.244,55.800000000000004,72.1,92.60000000000001,10-seed ensemble aggregate
+A-FL,Original ALM,79.984,55.400000000000006,79.60000000000001,87.0,10-seed ensemble aggregate
+A-FL,+ semi-hard top-k,80.58400000000002,51.0,70.0,94.0,10-seed ensemble aggregate
+CB-BCE,Original ALM,80.124,46.6,68.8,91.8,10-seed ensemble aggregate
+CB-BCE,+ semi-hard top-k,81.33600000000001,52.800000000000004,78.2,84.39999999999999,10-seed ensemble aggregate
+W-BCE,Original ALM,81.426,49.2,59.8,74.0,10-seed ensemble aggregate
+W-BCE,+ semi-hard top-k,80.46399999999998,48.4,63.800000000000004,81.8,10-seed ensemble aggregate
+LDAM,Original ALM,79.316,53.6,76.0,84.2,10-seed ensemble aggregate
+LDAM,+ semi-hard top-k,79.228,54.400000000000006,74.6,84.0,10-seed ensemble aggregate

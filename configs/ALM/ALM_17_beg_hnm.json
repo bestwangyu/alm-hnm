@@ -1,0 +1,9 @@
+{
+    "use_ALM": 1,
+    "mu": 1e-7,
+    "rho": 2,
+    "hnm_mode": "topk",
+    "hnm_topk": 10,
+    "hnm_warmup_epochs": 5,
+    "hnm_random_k": 2
+}

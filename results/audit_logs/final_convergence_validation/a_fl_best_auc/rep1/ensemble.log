@@ -1,0 +1,75 @@
+Running on device:  cuda:0
+You have selected dataset cifar100 and network resnet10. 
+JSON file baseline: baseline_a_FL_g2
+JSON file ALM: ALM_13_beg
+Model name a_fl_best_auc_k5_u0p60_r2_rep1, ratio classes 200 training, epochs 100, LR decrease 0.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 1.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+/home/c_123/program/alm-dnn-main-hnm/utils/train_test_CIFAR.py:522: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(os.path.join(model_dir, model_name + ".pth"))
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 2.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 3.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 4.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 5.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 6.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 7.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 8.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 9.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+Training model: a_fl_best_auc_k5_u0p60_r2_rep1. Run num. 10.
+Training type ASYM_FL
+ALM selected.
+ALM params: rho=2, mu=0.001, delta=0.25
+HNM params: mode=semi_hard_topk, topk=5, warmup=5, random_k=2, semi_hard_upper=0.6
+Starting test.
+### Final results ###
+AUC of ensembled validation logits: 0.5
+Validation AUC average: 0.0, standard deviation: 0.0
+AUC of averaged logits of final test: 82.45
+TPR = 98.0, FPR = 83.39999999999999.
+TPR = 95.0, FPR = 64.0.
+TPR = 90.0, FPR = 42.8.
+Test averaged AUC: 0.7557400000000001, std 0.04756412765940314.

@@ -1,0 +1,9 @@
+evidence_id,status,dataset,backbone,ratios,archive,role
+ablation_v1,valid,cifar100,resnet10,200,ijmlc_ablation_v1_results_no_pth.tar.gz,five-way mining ablation
+stage2_v2,valid,cifar100,resnet10,200,ijmlc_stage2_robustness_v2_results_no_pth.tar.gz,parameter robustness
+cifar10_v1,valid,cifar10,resnet10,20;100;200,ijmlc_generalization_v1_cifar10_resnet10_results_no_pth.tar.gz,ratio generalization
+cifar100_resnet18_v1,valid,cifar100,resnet18,200,ijmlc_generalization_v1_cifar100_resnet18_results_no_pth.tar.gz,backbone generalization
+svhn_v3,valid,svhn,resnet10,20;100;200,ijmlc_independent_svhn_v3_svhn_resnet10_results_no_pth.tar.gz,independent dataset
+cifar100_ratios_v1,valid,cifar100,resnet10,20;100,ijmlc_cifar100_resnet10_ratio_v1_cifar100_resnet10_results_no_pth.tar.gz,ratio sensitivity
+svhn_v1,excluded-invalid,svhn,resnet10,20;100;200,not included,label-shuffle mismatch
+svhn_v2,excluded-invalid,svhn,resnet10,20;100;200,not included,class-count truncation

@@ -1,0 +1,6 @@
+point_tag,branch_tag,baseline_tag,baseline_config,alm_config,delta,hnm_mode,hnm_topk,hnm_random_k,hnm_semi_hard_upper,hnm_warmup_epochs,n,auc_mean,auc_std,fpr98_mean,fpr98_std,fpr95_mean,fpr95_std,fpr90_mean,fpr90_std
+a_fl_best_auc,a_fl,a_fl,baseline_a_FL_g2,ALM_13_beg,0.25,semi_hard_topk,5,2,0.6,5,3,80.749333,1.256718,87.466667,2.876727,75.133333,8.093344,47.533333,3.465384
+a_fl_low_fpr98,a_fl,a_fl,baseline_a_FL_g2,ALM_13_beg,0.3,semi_hard_topk,5,2,0.62,7,3,81.412667,0.169567,82.4,4.283301,66.5,7.839643,45.066667,1.569147
+bce_best_auc,bce,bce,baseline_bce,ALM_13_beg,0.12,semi_hard_topk,10,1,0.48,7,3,82.046,0.104167,89.4,5.091169,62.933333,6.974876,42.333333,2.654974
+bce_low_fpr95,bce,bce,baseline_bce,ALM_13_beg,0.12,semi_hard_topk,10,0,0.48,7,3,81.074,0.432176,88.8,1.728198,67.866667,9.246741,46.766667,3.662725
+bce_low_fpr98,bce,bce,baseline_bce,ALM_13_beg,0.12,semi_hard_topk,10,0,0.48,3,3,82.360667,0.634561,88.133333,5.342492,65.466667,6.123906,44.8,3.394113
